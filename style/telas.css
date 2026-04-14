@@ -82,8 +82,95 @@
         grid-row: 2 / -1;
     }
 }
+/*------------------------------------- Media para Desktops-----------------------------------------------------------------------*/
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+    #regiao{
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #regiao > .segunda-parte{
+        grid-column: 1 / 2;
+        grid-row: 2 / -1;
+    }
+
+    #regiao > #curiosidades{
+        grid-column: 2 / -1;
+        grid-row: 1 / -1;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    #regiao > #curiosidades > .localizacao{
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    }
+
+    #regiao > #curiosidades > .territorio{
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+    }
+
+    #regiao > #curiosidades > .porto{
+        grid-column: 1 / -1;
+        grid-row: 3 / -1;
+    }
+
+    main > #imagens{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 1fr 50px 1fr 50px 1fr;
+    }
+
+    #itanhaem{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #saovicente{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;    
+    }
+
+    #bertioga{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+
+    #cubatao{
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+
+    #mongagua{
+        grid-column: 1 / 2;
+        grid-row: 6 / -1;
+    }
+
+    #peruibe{
+        grid-column: 2 / 3;
+        grid-row: 6 / -1;
+    }
+
+    #transporte{
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: 50% 50%;
+    }
+
+    #transporte > .segunda-parte{
+        grid-column: 1 / 2;
+        grid-row: 2 / -1;
+    }
+}
+
+/*------------------------------------- Media para Televisões -----------------------------------------------------------------------*/
+@media screen and (min-width: 1601px) {
+    header > h1{
+        font-size: 13vw;
+    }
+
     #regiao{
         display: grid;
         grid-template-columns: 1fr 1fr auto;
