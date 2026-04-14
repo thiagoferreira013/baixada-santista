@@ -235,3 +235,20 @@ main > #imagens{
     font-family: var(--texto);
     font-size: 1em;
 }
+
+/*< ---------------------------------------------------RODAPÉ------------------------------------------------------>*/
+
+footer{
+    padding: 20px;
+    background: var(--cor-fundo);
+}
+
+footer > p{
+    color: white;
+    font-family: var(--texto);
+    text-align: center;
+}
+
+footer > p > span{
+    font-weight: bolder;
+}
