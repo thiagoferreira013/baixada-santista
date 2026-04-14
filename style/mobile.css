@@ -151,12 +151,16 @@ main > #imagens{
     background-size: cover;
 }
 
-#imagens > h3{
+#imagens  h3{
     text-decoration: none;
     color: var(--botoes);
     font-size: 2.5em;
     text-align: center;
     font-family: var(--titulo);
+}
+
+#imagens > a{
+    text-decoration: none;
 }
 
 #imagens > #itanhaem{
