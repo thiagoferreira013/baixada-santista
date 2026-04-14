@@ -194,3 +194,44 @@ main > #imagens{
 #imagens > #praiagrande{
     background-image: url(../images/praia-grande/praiagrande-1.jpg);
 }
+
+/*< ---------------------------------------------------TRANSPORTE------------------------------------------------------>*/
+
+#transporte{
+    margin-bottom: 30px;
+}
+
+#transporte p{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding: 20px;
+}
+
+#transporte > #meios-transporte{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#transporte > #meios-transporte > div{
+    width: 90%;
+    height: 100px;
+    background-color: var(--cor-fundo);
+    border-radius: 10px;
+    margin: auto;
+}
+
+#transporte > #meios-transporte > div > h4{
+    color: var(--cor-titulo);
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-family: var(--titulo);
+}
+
+#transporte > #meios-transporte > div > p{
+    color: white;
+    text-align: center;
+    font-family: var(--texto);
+    font-size: 1em;
+}
