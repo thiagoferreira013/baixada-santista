@@ -120,3 +120,77 @@ main > h2{
     grid-column: 1 / -1;
     grid-row: 2 / -1;
 }
+
+/*< ---------------------------------------------------CIDADES------------------------------------------------------>*/
+
+main > #imagens{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, auto);
+    gap: 30px;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+#imagens > .cidades{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.37);
+    transition: box-shadow 0.5s;
+}
+
+#imagens > .cidades:hover{
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.658);
+}
+
+#imagens > .cidades{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imagens > h3{
+    text-decoration: none;
+    color: var(--botoes);
+    font-size: 2.5em;
+    text-align: center;
+    font-family: var(--titulo);
+}
+
+#imagens > #itanhaem{
+    background-image: url(../images/itanhaem/itanhaem-1.jpg);
+}
+
+#imagens > #saovicente{
+    background-image: url(../images/sao-vicente/saovicente-1.jpg);
+}
+
+#imagens > #santos{
+    background-image: url(../images/santos/santos-1.jpg);
+}
+
+#imagens > #bertioga{
+    background-image: url(../images/bertioga/bertioga-1.jpg);
+}
+
+#imagens > #cubatao{
+    background-image: url(../images/cubatao/cubatao-2.jpg);
+}
+
+#imagens > #guaruja{
+    background-image: url(../images/guaruja/guaruja-1.jpg);
+}
+
+#imagens > #mongagua{
+    background-image: url(../images/mongagua/mongagua-1.webp);
+}
+
+#imagens > #peruibe{
+    background-image: url(../images/peruibe/peruibe-1.jpg);
+}
+
+#imagens > #praiagrande{
+    background-image: url(../images/praia-grande/praiagrande-1.jpg);
+}
