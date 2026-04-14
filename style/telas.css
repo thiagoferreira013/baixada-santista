@@ -70,4 +70,15 @@
         grid-column: 1 / -1;
         grid-row: 10 / -1;
     }
+
+    #transporte{
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        grid-template-rows: 1fr auto;
+    }
+
+    #transporte > .segunda-parte{
+        grid-column: 1 / 2;
+        grid-row: 2 / -1;
+    }
 }
