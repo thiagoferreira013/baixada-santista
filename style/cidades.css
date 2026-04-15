@@ -55,6 +55,14 @@ header > .bertioga{
     font-size: 23vw;
 }
 
+header > .cubatao{
+    font-size: 24vw;
+}
+
+header > .guaruja{
+    font-size: 24vw;
+}
+
 header > h1 > span{
     color: var(--cor-titulo);
 }
@@ -114,6 +122,14 @@ main > p{
     background-image: url(../images/bertioga/bertioga-1.jpg);
 }
 
+#imagem1-cub{
+    background-image: url(../images/cubatao/cubatao-1.webp);
+}
+
+#imagem1-gua{
+    background-image: url(../images/guaruja/guaruja-1.jpg);
+}
+
 /*< ------------------------------IMAGENS 2 ----------------------------------------->*/
 
 #imagem2-it{
@@ -132,6 +148,14 @@ main > p{
     background-image: url(../images/bertioga/bertioga-2.jpg);
 }
 
+#imagem2-cub{
+    background-image: url(../images/cubatao/cubatao-2.jpg);
+}
+
+#imagem2-gua{
+    background-image: url(../images/guaruja/guaruja-2.webp);
+}
+
 /*< ------------------------------IMAGENS 3 ----------------------------------------->*/
 
 #imagem3-it{
@@ -147,7 +171,15 @@ main > p{
 }
 
 #imagem3-ber{
-    background-image: url(../images/bertioga/bertioga-3.jpg);
+    background-image: url(../images/bertioga/bertioga-3.jpeg);
+}
+
+#imagem3-cub{
+    background-image: url(../images/cubatao/cubatao-3.jpg);
+}
+
+#imagem3-gua{
+    background-image: url(../images/guaruja/guaruja-3.jpg);
 }
 
 /*< ------------------------------IMAGENS 4 ----------------------------------------->*/
@@ -166,6 +198,14 @@ main > p{
 
 #imagem4-ber{
     background-image: url(../images/bertioga/bertioga-4.jpg);
+}
+
+#imagem4-cub{
+    background-image: url(../images/cubatao/cubatao-4.jpeg);
+}
+
+#imagem4-gua{
+    background-image: url(../images/guaruja/guaruja-4.png);
 }
 
 /*< ---------------------------------------------------RODAPÉ------------------------------------------------------>*/
