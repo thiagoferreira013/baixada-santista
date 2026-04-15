@@ -47,6 +47,14 @@ header > .saovicente{
     font-size: 17vw;
 }
 
+header > .santos{
+    font-size: 29vw;
+}
+
+header > .bertioga{
+    font-size: 23vw;
+}
+
 header > h1 > span{
     color: var(--cor-titulo);
 }
@@ -89,7 +97,7 @@ main > p{
     background-size: cover;
     margin-bottom: 30px;
 }
-
+/*< ------------------------------IMAGENS 1 ----------------------------------------->*/
 #imagem1-it{
     background-image: url(../images/itanhaem/itanhaem-1.jpg);
 }
@@ -97,6 +105,16 @@ main > p{
 #imagem1-sv{
     background-image: url(../images/sao-vicente/saovicente-1.jpg);
 }
+
+#imagem1-san{
+    background-image: url(../images/santos/santos-1.jpg);
+}
+
+#imagem1-ber{
+    background-image: url(../images/bertioga/bertioga-1.jpg);
+}
+
+/*< ------------------------------IMAGENS 2 ----------------------------------------->*/
 
 #imagem2-it{
     background-image: url(../images/itanhaem/itanhaem-2.jpg);
@@ -106,6 +124,16 @@ main > p{
     background-image: url(../images/sao-vicente/saovicente-2.jpg);
 }
 
+#imagem2-san{
+    background-image: url(../images/santos/santos-2.jpg);
+}
+
+#imagem2-ber{
+    background-image: url(../images/bertioga/bertioga-2.jpg);
+}
+
+/*< ------------------------------IMAGENS 3 ----------------------------------------->*/
+
 #imagem3-it{
     background-image: url(../images/itanhaem/itanhaem-3.webp);
 }
@@ -114,12 +142,30 @@ main > p{
     background-image: url(../images/sao-vicente/saovicente-3.jpeg);
 }
 
+#imagem3-san{
+    background-image: url(../images/santos/santos-3.webp);
+}
+
+#imagem3-ber{
+    background-image: url(../images/bertioga/bertioga-3.jpg);
+}
+
+/*< ------------------------------IMAGENS 4 ----------------------------------------->*/
+
 #imagem4-it{
     background-image: url(../images/itanhaem/itanhaem-4.jpg);
 }
 
 #imagem4-sv{
     background-image: url(../images/sao-vicente/saovicente-4.jpg);
+}
+
+#imagem4-san{
+    background-image: url(../images/santos/santos-4.avif);
+}
+
+#imagem4-ber{
+    background-image: url(../images/bertioga/bertioga-4.jpg);
 }
 
 /*< ---------------------------------------------------RODAPÉ------------------------------------------------------>*/
