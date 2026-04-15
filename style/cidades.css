@@ -71,6 +71,10 @@ header > .mongagua{
     font-size: 20vw;
 }
 
+header > .peruibe{
+    font-size: 26vw;
+}
+
 header > h1 > span{
     color: var(--cor-titulo);
 }
@@ -142,6 +146,9 @@ main > p{
     background-image: url(../images/mongagua/mongagua-1.webp);
 }
 
+#imagem1-per{
+    background-image: url(../images/peruibe/peruibe-1.jpg);
+}
 /*< ------------------------------IMAGENS 2 ----------------------------------------->*/
 
 #imagem2-it{
@@ -170,6 +177,10 @@ main > p{
 
 #imagem2-mon{
     background-image: url(../images/mongagua/mongagua-2.jpg);
+}
+
+#imagem2-per{
+    background-image: url(../images/peruibe/peruibe-2.webp);
 }
 
 /*< ------------------------------IMAGENS 3 ----------------------------------------->*/
@@ -202,6 +213,10 @@ main > p{
     background-image: url(../images/mongagua/mongagua-3.webp);
 }
 
+#imagem3-per{
+    background-image: url(../images/peruibe/peruibe-3.jpg);
+}
+
 /*< ------------------------------IMAGENS 4 ----------------------------------------->*/
 
 #imagem4-it{
@@ -230,6 +245,10 @@ main > p{
 
 #imagem4-mon{
     background-image: url(../images/mongagua/mongagua-4.jpg);
+}
+
+#imagem4-per{
+    background-image: url(../images/peruibe/peruibe-4.webp);
 }
 
 /*< ---------------------------------------------------RODAPÉ------------------------------------------------------>*/
