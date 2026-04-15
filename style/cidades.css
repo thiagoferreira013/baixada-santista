@@ -100,14 +100,14 @@ header > a:hover{
 }
 
 /*< --------------------------------------------------MAIN ---------------------------------------->*/
-main > h2{
+main > .titulo-paragrafo >  h2{
     text-align: center;
     font-size: 2em;
     font-family: var(--titulo);
     margin-bottom: 30px;
 }
 
-main > p{
+main > .titulo-paragrafo > p{
     font-size: 1.3em;
     line-height: 1.5em;
     padding: 20px;
