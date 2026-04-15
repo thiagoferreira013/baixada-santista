@@ -43,16 +43,20 @@ header > h1{
     margin-bottom: 20px;
 }
 
+header > .itanhaem{
+    font-size: 22vw;
+}
+
 header > .saovicente{
-    font-size: 17vw;
+    font-size: 18vw;
 }
 
 header > .santos{
-    font-size: 29vw;
+    font-size: 30vw;
 }
 
 header > .bertioga{
-    font-size: 23vw;
+    font-size: 24vw;
 }
 
 header > .cubatao{
@@ -60,7 +64,7 @@ header > .cubatao{
 }
 
 header > .guaruja{
-    font-size: 24vw;
+    font-size: 25vw;
 }
 
 header > h1 > span{
