@@ -75,6 +75,10 @@ header > .peruibe{
     font-size: 26vw;
 }
 
+header > .praiagrande{
+    font-size: 15.5vw;
+}
+
 header > h1 > span{
     color: var(--cor-titulo);
 }
@@ -149,6 +153,10 @@ main > p{
 #imagem1-per{
     background-image: url(../images/peruibe/peruibe-1.jpg);
 }
+
+#imagem1-pg{
+    background-image: url(../images/praia-grande/praiagrande-1.jpg);
+}
 /*< ------------------------------IMAGENS 2 ----------------------------------------->*/
 
 #imagem2-it{
@@ -181,6 +189,10 @@ main > p{
 
 #imagem2-per{
     background-image: url(../images/peruibe/peruibe-2.webp);
+}
+
+#imagem2-pg{
+    background-image: url(../images/praia-grande/praiagrande-2.webp);
 }
 
 /*< ------------------------------IMAGENS 3 ----------------------------------------->*/
@@ -217,6 +229,10 @@ main > p{
     background-image: url(../images/peruibe/peruibe-3.jpg);
 }
 
+#imagem3-pg{
+    background-image: url(../images/praia-grande/praiagrande-3.jpg);
+}
+
 /*< ------------------------------IMAGENS 4 ----------------------------------------->*/
 
 #imagem4-it{
@@ -249,6 +265,10 @@ main > p{
 
 #imagem4-per{
     background-image: url(../images/peruibe/peruibe-4.webp);
+}
+
+#imagem4-pg{
+    background-image: url(../images/praia-grande/praiagrande-4.jpg);
 }
 
 /*< ---------------------------------------------------RODAPÉ------------------------------------------------------>*/
